@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="../images/icons/favicon.png">
+  <title>Home</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+
+</head>
+
+<body>
+  <div id="navbar" class="parent-navbar">
+    <div class="logo">
+      <img src="../images/cozastore.png" alt="" />
+    </div>
+    <div class="navbar-links">
+      <a href="home.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="navbar-i-links">
+      <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+      <i id="cart-icon" class="fa-solid fa-cart-shopping fa-lg"></i>
+      <i class="fa-regular fa-heart fa-lg"></i>
+      <i class="bars fa-solid fa-bars icon-bars "></i>
+      <i class="xmark fa-solid fa-xmark icon-close "></i>
+
+
+    </div>
+  </div>
+  <div class="carousel-container">
+    <div class="carousel">
+      <div class="carousel-item">
+        <img src="../images/slide-03.jpg" alt="Image 1" />
+      </div>
+      <div class="carousel-item">
+        <img src="../images/slide-01.jpg" alt="Image 2" />
+      </div>
+      <div class="carousel-item">
+        <img src="../images/slide-02.jpg" alt="Image 3" />
+      </div>
+    </div>
+
+    <button class="prev" id="prevBtn"><i class="fa-solid fa-caret-left fa-xl"></i></button>
+    <button class="next" id="nextBtn"><i class="fa-solid fa-caret-right fa-xl"></i></button>
+  </div>
+
+  <div class="banner-container">
+    <div class="banner-section">
+      <div class="banner">
+        <a href="../html/shop.html"><img src="../images/women-banner.jpg" alt="">
+          <div class="text-overlay">
+            <h2>Women</h2>
+            <p>Fall 2024</p>
+          </div>
+        </a>
+      </div>
+      <div class="banner">
+        <a href="../html/shop.html"><img src="../images/men-banner.jpg" alt="">
+          <div class="text-overlay">
+            <h2>Men</h2>
+            <p>Fall 2024</p>
+          </div>
+        </a>
+      </div>
+      <div class="banner">
+        <a href="../html/shop.html"><img src="../images/accesories-banner.jpg" alt="">
+          <div class="text-overlay">
+            <h2>Accessories</h2>
+            <p>New Trend</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="prodover">
+    <h1>PRODUCT OVERVIEW</h1>
+  </div>
+  <div class="product-overview">
+    <div class="categories">
+      <a  class="active">Products</a>
+     <!-- <a >Women</a>
+      <a >Men</a>
+      <a >Bag</a>
+      <a >Shoes</a>
+      <a >Watches</a>  -->
+    </div>
+    <div class="controls">
+      <button class="filter-btn">
+        <i class="fa-solid fa-filter fa-xs"></i> Filter
+      </button>
+      <button class="search-btn">
+        <i class="fa-solid fa-magnifying-glass fa-xs"></i> Search
+      </button>
+    </div>
+  </div>
+  <div class="filter-dropdown hidden">
+    <div class="filter-section">
+      <h3>Sort By</h3>
+      <ul>
+        <li>Default</li>
+        <li>Popularity</li>
+        <li>Average rating</li>
+        <li>Newness</li>
+        <li>Price: Low to High</li>
+        <li>Price: High to Low</li>
+      </ul>
+    </div>
+    <div class="filter-section">
+      <h3>Price</h3>
+      <ul>
+        <li>All</li>
+        <li>$0.00 - $50.00</li>
+        <li>$50.00 - $100.00</li>
+        <li>$100.00 - $150.00</li>
+        <li>$150.00 - $200.00</li>
+        <li>$200.00+</li>
+      </ul>
+    </div>
+    <div class="filter-section">
+      <h3>Color</h3>
+      <ul>
+        <li><i class="fa-solid fa-circle fa-2xs" style="color: black; text-shadow: 0 0 1px #333;"></i> Black</li>
+        <li><i class="fa-solid fa-circle fa-2xs" style="color: #4272d7; text-shadow: 0 0 1px #333;"></i> Blue</li>
+        <li><i class="fa-solid fa-circle fa-2xs" style="color: #666666; text-shadow: 0 0 1px #333;"></i> Grey</li>
+        <li><i class="fa-solid fa-circle fa-2xs" style="color: #14d734; text-shadow: 0 0 1px #333;"></i> Green</li> 
+        <li><i class="fa-solid fa-circle fa-2xs" style="color: #ff0000; text-shadow: 0 0 1px #333;"></i> Red</li>
+        <li><i class="fa-solid fa-circle fa-2xs" style="color: #ffffff; text-shadow: 0 0 2px #333;"></i> White</li>
+        
+      </ul>
+    </div>
+    <div class="filter-section">
+      <h3>Tags</h3>
+      <div class="tags">
+        <span>Fashion</span>
+        <span>Lifestyle</span>
+        <span>Denim</span>
+        <span>Streetstyle</span>
+        <span>Crafts</span>
+      </div>
+    </div>
+</div>
+<div class="product-gallery">
+    <!-- Product 1 -->
+    <div class="product-item">
+      <a href="#">
+        <img src="../images/product-1.jpg" alt="Esprit Ruffle Shirt" />
+      </a>
+      <div class="product-details">
+        <div class="product-name">Esprit Ruffle Shirt</div>
+        <div class="product-price">$16.64</div>
+        <a href="./product.html" class="add-to-cart">
+          <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+        </a>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-item">
+      <a href="#">
+        <img src="../images/product-02.jpg" alt="Herschel Supply" />
+      </a>
+      <div class="product-details">
+        <div class="product-name">Herschel Supply</div>
+        <div class="product-price">$35.31</div>
+        <a href="./product.html" class="add-to-cart">
+          <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+        </a>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-item">
+      <a href="#">
+        <img src="../images/product-03.jpg" alt="Only Check Trouser" />
+      </a>
+      <div class="product-details">
+        <div class="product-name">Only Check Trouser</div>
+        <div class="product-price">$25.50</div>
+        <a href="./product.html" class="add-to-cart">
+          <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+        </a>
+      </div>
+    </div>
+
+<!-- Product 4 -->
+<div class="product-item">
+  <a href="../html/product.html">
+    <img src="../images/product-04.jpg" alt="Classic Trench Coat" />
+  </a>
+  <div class="product-details">
+    <div class="product-name">Classic Trench Coat</div>
+    <div class="product-price">$75.00</div>
+    <a href="./product.html" class="add-to-cart">
+      <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+    </a>
+  </div>
+</div>
+
+<!-- Product 5 -->
+<div class="product-item">
+  <a href="#">
+    <img src="../images/product-05.png" alt="Esprit Ruffle Shirt" />
+  </a>
+  <div class="product-details">
+    <div class="product-name">Esprit Ruffle Shirt</div>
+    <div class="product-price">$16.64</div>
+    <a href="./product.html" class="add-to-cart">
+      <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+    </a>
+  </div>
+</div>
+
+<!-- Product 6 -->
+<div class="product-item">
+  <a href="#">
+    <img src="../images/product-06.jpg" alt="Herschel Supply" />
+  </a>
+  <div class="product-details">
+    <div class="product-name">Herschel Supply</div>
+    <div class="product-price">$35.31</div>
+    <a href="./product.html" class="add-to-cart">
+      <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+    </a>
+  </div>
+</div>
+
+  
+</div>
+<div class="shopbtncontainer">
+  <div class="shopnow">
+    <a href="./shop.html" class="load-more-btn">SHOP NOW</a>
+  </div>
+</div>
+<div id="sidebar" class="sidebar">
+  <button id="close-btn" class="close-btn">&times;</button>
+  <h2>Your Cart</h2>
+  <div class="cart-items">
+    <div class="cart-item">
+      <img src="../images/item-cart-01.jpg" alt="White Shirt Pleat">
+      <a href="#" class="cart-link">
+        <p>White Shirt Pleat</p>
+        <span>1 x $19.00</span>
+      </a>
+    </div>
+    <div class="cart-item">
+      <img src="../images/item-cart-02.jpg" alt="Converse All Star">
+      <a href="#" class="cart-link">
+        <p>Converse All Star</p>
+        <span>1 x $39.00</span>
+      </a>
+
+    </div>
+    <div class="cart-item">
+      <img src="../images/item-cart-03.jpg" alt="Nixon Porter Leather">
+      <a href="#" class="cart-link">
+        <p>Nixon Porter Leather</p>
+        <span>1 x $17.00</span>
+      </a>
+    </div>
+
+  </div>
+  <div class="cart-total">
+    <br>
+    <br>
+    <p>Total: $75.00</p>
+  </div>
+  <div class="cart-buttons">
+    <a href="shopping-cart.html">
+    <button class="btn view-cart">View Cart</button>
+    <button class="btn checkout">Check Out</button>
+    </a>
+  </div>
+</div>
+
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3 class="footer-title">CATEGORIES</h3>
+      <ul class="footer-list">
+        <a href=""><li>Women</li></a>
+        <a href=""><li>Men</li></a>
+        <a href=""><li>Bag</li></a>
+        <a href=""><li>Shoes</li></a>
+        <a href=""><li>Watches</li></a>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3 class="footer-title">PAGES</h3>
+      <ul class="footer-list">
+        <a href="home.html"><li >Home</li></a>
+        <a href="shop.html"><li>Shop</li></a>
+        <a href="about.html"><li>About</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3 class="footer-title">GET IN TOUCH</h3>
+      <p class="footer-text">
+        Any questions? Let us know on site at ST-16 Main University Rd, Block 5 Gulshan-e-Iqbal, Karachi, Sindh or call us on (+92)-3145522014
+      </p>
+    </div>
+
+    <div class="footer-section">
+      <h3 class="footer-title">NEWSLETTER</h3>
+      <form>
+        <div class="footemail">
+        <input type="email" class="footer-input" placeholder="email@example.com">
+      </div>
+        <button class="footer-button" type="submit">SUBSCRIBE</button>
+      </form>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-copyright">
+      Copyright ©2024 | All rights reserved 
+    </p>
+  </div>
+</footer>
+
+  <script src="https://kit.fontawesome.com/91b582f0a1.js" crossorigin="anonymous"></script>
+  <script src="../script/script.js"></script>
+  
+  <script src="../script/scroll.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,177 @@
+.parent-navbar {
+    background-color: #ffffff;
+}
+
+.about-us {
+    position: relative;
+    width: 100%;
+    height: 239px;
+    margin-top: 84px;
+}
+
+.about-us img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-us-text {
+
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.parent-story {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.our-story {
+    width: 44%;
+    margin-top: 80px;
+    margin-left: 155px;
+    margin-bottom: 80px;
+}
+
+.our-story p,
+ul {
+    color: #888888;
+    font-size: 14px;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.our-story h2 {
+    font-size: 25px;
+    color: #333333;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.imgsec-container {
+    position: relative;
+    border: 3px solid #ccc;
+    margin-left: 100px;
+    margin-top: 7%;
+    width: 450px;
+    height: 450px;
+}
+
+.our-story-imgsection {
+    overflow: hidden;
+
+    position: absolute;
+    top: -20px;
+    right: -25px;
+    width: 450px;
+    height: 450px;
+}
+
+.our-story-imgsection img {
+    transition: transform 0.5s ease-in-out;
+    width: 450px;
+    height: 450px;
+
+}
+
+/* Hover effect: zoom in */
+.our-story-imgsection img:hover {
+    transform: scale(1.1);
+    /* Scale the image by 10% on hover */
+}
+
+.parent-Mission {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+.our-Mission {
+    width: 44%;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 80px;
+}
+
+.our-Mission p {
+    color: #888888;
+    font-size: 14px;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.our-Mission h2 {
+    font-size: 25px;
+    color: #333333;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.imgsec2-container {
+    position: relative;
+    border: 3px solid #ccc;
+    margin-left: 155px;
+    margin-top: 3%;
+    width: 450px;
+    height: 450px;
+}
+
+.our-Mission-imgsection {
+    overflow: hidden;
+
+    position: absolute;
+    top: -20px;
+    left: -25px;
+    width: 450px;
+    height: 450px;
+}
+
+.our-Mission-imgsection img {
+    transition: transform 0.5s ease-in-out;
+    width: 450px;
+    height: 450px;
+
+}
+
+/* Hover effect: zoom in */
+.our-Mission-imgsection img:hover {
+    transform: scale(1.1);
+    /* Scale the image by 10% on hover */
+}
+
+.quote {
+    border-left: 3px solid #e6e6e6;
+}
+
+.quote span {
+    padding-left: 20px;
+    font-size: 13px;
+    color: #888888;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.quote p {
+    padding-left: 20px;
+    font-size: 15px;
+    color: #888888;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: italic;
+
+}

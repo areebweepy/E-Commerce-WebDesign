@@ -1,0 +1,317 @@
+.parent-navbar{
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.product-overview {
+    display: flex;
+    padding-top: 20px;
+    /* margin-left: 16%; */
+}
+
+.prodover {
+    margin-top: 2%;
+    margin-left: 16%;
+}
+
+.categories {
+    gap: 15px;
+    padding-top: 10px;
+}
+
+.categories a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #555;
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.categories a.active,
+.categories a:hover {
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+.controls {
+    display: flex;
+    /* margin-left: 40%; */
+    gap: 10px;
+}
+
+.controls button {
+    align-items: center;
+    gap: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 5px 20px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #888888;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.controls button:hover {
+    background-color: #6c7ae0;
+    color: #ffffff;
+}
+
+.controls i {
+    width: 20px;
+}
+
+.filter-dropdown {
+    margin-left: 15.5%;
+    display: none;
+    position:absolute;
+    background-color: #F2F2F2;
+    border: none;
+    padding: 15px;
+    width: 70%; /* Adjust width to fit content */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    display: flex; /* Use flexbox for horizontal layout */
+    gap: 20px; /* Add spacing between sections */
+  }
+  
+  .filter-section {
+    padding-bottom: 20px;
+    color: #000;
+    margin-left: 4%;
+    flex: 1; /* Allow sections to take equal space */
+    min-width: 150px; /* Optional: Set minimum width for each section */
+  }
+  
+
+  .filter-dropdown h3 {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    font-size: 1em;
+  }
+  
+  .filter-dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .filter-dropdown ul li {
+    font-size: 15px;
+    font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  width: fit-content;
+    color: #AAAAAA;
+    margin: 5px 0;
+    cursor: pointer;
+  }
+
+  .filter-dropdown li:hover,
+  .filter-dropdown li:active {
+    color: #6c7ae0;
+    border-bottom: 1px solid #6c7ae0;
+  }
+
+  .filter-dropdown .tags span:hover,
+  .filter-dropdown .tags span:active {
+    color: #6c7ae0;
+    border: 1px solid #6c7ae0;
+  }
+  
+  .filter-dropdown .color {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    border-radius: 50%;
+  }
+  
+  .filter-dropdown .tags {
+    color: #888888;
+    display: flex; /* Tags layout */
+    gap: 10px;
+    flex-wrap: wrap; /* Allow tags to wrap to the next line if needed */
+  }
+  
+  .filter-dropdown .tags span {
+    border: 1px solid #ccc;
+    display: inline-block;
+    font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+    color: #888;
+    font-size: 13px;
+    padding: 5px 10px;
+    background-color:   transparent;
+    border-radius: 18px;
+    cursor: pointer;
+  }
+  
+  .hidden {
+    display: none; /* Ensure hidden class hides the dropdown */
+  }
+
+  .product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 20px;
+    margin: 30px 10% ;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    background-color: #ffffff; /* Light background for the section */
+    height: 100%;
+    max-height: fit-content;
+    /* display: none; */
+}
+
+.product-gallery2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 20px;
+  margin: 30px 10% ;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  background-color: #ffffff; /* Light background for the section */
+  height: 100%;
+  max-height: fit-content;
+  display: none;
+}
+
+.product-gallery3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 20px;
+  margin: 30px 10% ;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  background-color: #ffffff; /* Light background for the section */
+  height: 100%;
+  max-height: fit-content;
+  display: none;
+}
+
+.product-gallery4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 20px;
+  margin: 30px 10% ;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  background-color: #ffffff; /* Light background for the section */
+  height: 100%;
+  max-height: fit-content;
+  display: none;
+}
+
+.product-gallery5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 20px;
+  margin: 30px 10% ;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  background-color: #ffffff; /* Light background for the section */
+  height: 100%;
+  max-height: fit-content;
+  display: none;
+}
+
+.product-gallery6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 20px;
+  margin: 30px 10% ;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  background-color: #ffffff; /* Light background for the section */
+  height: 100%;
+  max-height: fit-content;
+  display: none;
+}
+
+.product-item {
+    width: 315px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.product-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-item img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    display: block;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.product-item:hover img {
+    opacity: 0.9;
+}
+
+.product-details {
+    padding: 15px 10px;
+}
+
+.product-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.add-to-cart {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #222;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart i {
+    margin-right: 5px;
+}
+
+.add-to-cart:hover {
+    background-color: #6c7ae0;
+}
+
+.product-gallery.move-down {
+    margin-top: 20%; /* Adjust the value as needed */
+    transition: margin-top 0.5s ease;
+}

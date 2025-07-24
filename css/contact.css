@@ -1,0 +1,193 @@
+.parent-navbar {
+    background-color: #ffffff;
+}
+
+.about-us {
+    position: relative;
+    width: 100%;
+    height: 239px;
+    margin-top: 84px;
+}
+
+.about-us img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-us-text {
+
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.parent-contact-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* height: 750px; */
+margin: 4rem;
+    /* width: 90%; */
+    /* margin-left: 30px; */
+}
+
+@media (min-width: 950px) {
+    /* justify-content: space-between; */
+    .parent-contact-container{
+        flex-direction: row;
+        align-items: normal;
+    }
+    .parent-contact{
+        width: 675px;
+    }
+    .child-contact{
+        width: 675px;
+    }
+}
+
+.parent-contact{
+    /* margin-top: 5%; */
+    /* margin-left: 5%; */
+    border: 1px solid #e6e6e6;
+    /* width: 675px; */
+    /* height: 560px; */
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-bottom: 50px;
+}
+.parent-contact h4{
+    cursor: default;
+    padding-left: 23%;
+    font-size: 24px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #333;
+}
+
+.email-div input{
+    position: relative;
+    width:87%;
+    height: 50px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 13px;
+    font-style: normal;
+    color: #333;
+    outline: none;
+    padding-left: 70px;
+    border: 1px solid #e6e6e6;
+}
+.email-div input::placeholder{
+    color: #333;
+}
+.email-div img{
+    left:12%;
+    top: 84%;
+    position: absolute;
+}
+
+.email-div textarea{
+    margin-top: 20px;
+    width: 87%;
+    min-height: 199px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 13px;
+    font-style: normal;
+    color: #333;
+    padding-top: 25px;
+    padding-left: 25px;
+    border: 1px solid #e6e6e6;
+}
+.email-div textarea::placeholder{
+    color: #333;
+}
+
+.email-div button{
+    
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+    background-color: #222;
+    border-radius: 18px;
+    border: 1px solid #222;
+    color: #ffffff;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 87%;
+    height: 46px;
+    
+    
+    
+}
+
+.email-div button:hover{
+    border: 1px solid #6c7ae0;
+    background-color: #6c7ae0;
+}
+
+.child-contact{
+    position: relative;
+    /* margin-top: 5%; */
+    margin-left: 0px;
+    border: 1px solid #e6e6e6;
+    /* width: 675px; */
+    /* height: 560px; */
+    padding-top: 120px;
+    padding-left: 130px;
+    padding-bottom: 50px;
+    color: #888888;
+}
+
+.child-contact h4{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    color: #333;
+
+}
+
+.child-contact p{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    color: #888888;
+
+}
+
+
+.Lets-talk p{
+    color: #717fe0;
+}
+
+.sales-support p {
+    color: #717fe0;
+}
+
+.Lets-talk i{
+    top:247px;
+    left: 95px;
+    position: absolute;
+}
+
+.sales-support i{
+    top:347px;
+    left: 95px;
+    position: absolute;
+}
+
+.address i{
+    top:125px;
+    left: 95px;
+    position: absolute;
+}
